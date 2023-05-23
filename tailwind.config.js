@@ -1,7 +1,9 @@
 import defaultTheme from 'tailwindcss/defaultTheme';
 import forms from '@tailwindcss/forms';
 import typography from '@tailwindcss/typography';
-const colors = require('tailwindcss/colors') 
+const colors = require('tailwindcss/colors')
+const preline = require('preline/plugin') 
+const daisyui = require('daisyui')
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -11,7 +13,7 @@ export default {
         './storage/framework/views/*.php',
         './resources/views/**/*.blade.php',
         './vendor/filament/**/*.blade.php', 
-
+        './node_modules/preline/dist/*.js',
     ],
 
     theme: {
@@ -28,5 +30,10 @@ export default {
         },
     },
 
-    plugins: [forms, typography],
+    plugins: [
+        forms, 
+        typography, 
+        preline,
+        daisyui,
+    ],
 };
