@@ -11,5 +11,6 @@
             <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor repellendus ipsa accusamus similique. Numquam, doloremque impedit eius, dolor quos distinctio earum vero dolore culpa, est ex temporibus? Atque, dolore facere?
             </p>
+            
           </div>
 </div>

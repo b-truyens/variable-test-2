@@ -11,6 +11,8 @@
 
   <link rel="preconnect" href="https://fonts.bunny.net">
   <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css" rel="stylesheet" />
+
 
   <!-- Styles -->
 
@@ -28,11 +30,31 @@
 
     <x-content />
 
+      <br>
+
+    <x-card />
+
+      <br>
+
+    <div  class="grid grid-cols-2 md:grid-cols-4 gap-6 lg:gap-8">
+      
+      <x-login />
+
+      <x-card />
+
+      <x-card-link />
+
+      <x-card-link />
+
+    </div>
+
     <x-footer />
 
   </div>
 
   @livewireScripts
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
 
 </body>
 
