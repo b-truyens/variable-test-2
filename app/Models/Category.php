@@ -18,6 +18,10 @@ class Category extends Model
         return $this->belongsToMany(Post::class);
     }
 
+    public function cards(): BelongsToMany
+    {
+        return $this->belongsToMany(Cards::class);
+    }
     public function publishedPosts(): BelongsToMany
     {
         return $this->belongsToMany(Post::class)
